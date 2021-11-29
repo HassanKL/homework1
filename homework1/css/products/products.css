@@ -1,0 +1,61 @@
+.pro {
+  height: 100%;
+  background-image: url(../images/background1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pro h1 {
+  text-align: center;
+}
+.pro .together {
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.pro .together .rink {
+  height: 300px;
+  color: white;
+  font-size: large;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.pro .together .rink img {
+  height: 250px;
+  width: 250px;
+}
+.pro .together .rink p {
+  text-align: center;
+}
+.pro footer {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.pro footer img {
+  height: 100px;
+  width: 100px;
+}
+.pro .text {
+  color: white;
+  width: 800px;
+  font-size: 20px;
+  margin-left: 350px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  text-align: center;
+}
